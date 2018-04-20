@@ -32,7 +32,7 @@ Gem::Specification.new do |spec|
   rails_version = rails_version.strip if rails_version
 
   version_spec = case rails_version
-  when nil then [ ">= 3.0", "<= 4.99.99" ]
+  when nil then [ ">= 3.0", "<= 5.99.99" ]
   when 'master' then nil# { :git => 'git://github.com/rails/rails.git' }
   else [ "=#{rails_version}" ]
   end
